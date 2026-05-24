@@ -99,7 +99,8 @@ grep -r "http" .
 ### `grep -r "api"`
 Se encontró el endpoint `https://api.web3forms.com/submit` como acción del formulario de contacto del sitio. También aparecen referencias a `fonts.googleapis.com` para la carga de tipografías. Las coincidencias en archivos binarios son falsos positivos sin relevancia para el análisis.
 
-> 📸 *[Captura: resultado del grep api]*
+> <img width="1058" height="157" alt="image" src="https://github.com/user-attachments/assets/52b97b2f-be1a-4c70-9d2b-49d7bc697dca" />
+
 
 ---
 
@@ -112,28 +113,28 @@ const response = await fetch(contactFormNew.action, { ... })
 
 Esto confirma que el sitio tiene lógica dinámica propia que envía datos a servicios externos, a diferencia de sitios estáticos donde `fetch` aparece únicamente dentro de código minificado de librerías como Bootstrap.
 
-> 📸 *[Captura: resultado del grep fetch]*
+<img width="1052" height="98" alt="image" src="https://github.com/user-attachments/assets/79e846df-ae9c-41a7-93dc-4498ae1e702f" />
 
 ---
 
 ### `grep -r "token"`
 **Sin resultados relevantes.** No se encontraron tokens JWT, tokens de sesión ni credenciales de autenticación expuestas en el código fuente. Esto representa una buena práctica desde el punto de vista de seguridad.
 
-> 📸 *[Captura: resultado del grep token]*
-
 ---
 
 ### `grep -r "key"`
 Se detectó el campo `name="access_key"` en el formulario de contacto, que es el identificador utilizado por web3forms para autenticar las solicitudes entrantes. Adicionalmente se encontraron referencias a `@keyframes` (animaciones CSS) y `event.key` provenientes de la librería `anime.js`, las cuales no representan ningún riesgo de seguridad.
 
-> 📸 *[Captura: resultado del grep key]*
+<img width="1181" height="287" alt="image" src="https://github.com/user-attachments/assets/86c1a148-61fb-48c6-b630-abe1713ecfdc" />
+
 
 ---
 
 ### `grep -r "http"`
 Se mapearon todas las dependencias externas del sitio: Google Fonts, CDN de Cloudflare, la API de web3forms, la pasarela de pago Bold (`checkout.bold.co/payment/LNK_Z48LF520TB`), cuatro dominios hermanos de la red latinoamericana y cinco redes sociales activas vinculadas al sitio.
 
-> 📸 *[Captura: resultado del grep http]*
+<img width="1182" height="134" alt="image" src="https://github.com/user-attachments/assets/fb2f0efc-c048-4c22-953b-0793cd419812" />
+
 
 ---
 
