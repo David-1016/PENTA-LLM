@@ -1,33 +1,23 @@
-# PENTA-LLM
-Este repositorio contiene el desarrollo del framework PENTA-LLM, una metodología para evaluar la seguridad de sitios web y modelos de Inteligencia Artificial (IA).
+# Laboratorio de Ciberseguridad: Latinoamérica Comparte
 
-El laboratorio de seguridad informática se centrará en la evaluación del portal Latinoamérica Comparte, una plataforma dedicada a la gestión de programas sociales, emprendimiento, productividad y transformación digital en la región. Las actividades se desarrollarán en un entorno controlado con el fin de auditar la infraestructura, APIs, formularios, configuraciones y la resiliencia de sistemas basados en inteligencia artificial ante técnicas de inyección de instrucciones.
+## Descripción del Proyecto
+Este repositorio contiene el entorno de pruebas, la documentación y las metodologías utilizadas para la auditoría de seguridad controlada del portal **Latinoamérica Comparte**. El objetivo principal es evaluar la resistencia de la plataforma frente a vectores de ataque modernos, analizando desde la infraestructura perimetral hasta la seguridad en modelos de Inteligencia Artificial.
 
-Las fases de análisis y los elementos evaluados se estructuran de la siguiente manera:
+---
 
-Reconocimiento de Infraestructura y Tecnologías
-El propósito de esta fase consiste en recopilar datos de acceso público para identificar la superficie de exposición del dominio y sus componentes tecnológicos.
+## Objetivos Centrales
 
-Elementos bajo análisis: Detección de subdominios activos, direcciones IP públicas, credenciales o correos electrónicos filtrados, tecnologías de servidor, frameworks de desarrollo y la validez de los certificados SSL.
+> **Entorno Controlado:** Todas las pruebas descritas en este laboratorio se ejecutan bajo un marco metodológico estricto con el fin de detectar vulnerabilidades y diseñar contramedidas efectivas.
 
-Riesgos asociados: Identificación de vectores de fuga de información, subdominios huérfanos o desconfigurados, y la enumeración de servicios expuestos que puedan comprometer la seguridad perimetral.
+* **Pentesting Web & APIs:** Evaluación de endpoints, lógica de negocio y formularios.
+* **Auditoría de Infraestructura:** Reconocimiento de servicios expuestos y configuraciones de servidor.
+* **Seguridad en IA:** Pruebas de resistencia contra *Prompt Injection* en los chatbots de la plataforma.
 
-Seguridad en Capa de Aplicación, Sesiones y APIs
-Se examinará la gestión de las comunicaciones y los mecanismos de autenticación entre el cliente y el servidor mediante la inspección y alteración controlada de solicitudes.
+---
 
-Elementos bajo análisis: Encabezados de respuesta HTTP, atributos de configuración en cookies, persistencia de tokens, manejo de sesiones, validación en formularios de entrada y accesibilidad de endpoints de APIs.
+## Alcance del Análisis
 
-Pruebas de ejecución: Modificación de parámetros en tránsito, reenvío y alteración de peticiones, e interceptación de flujos de autenticación.
+El desarrollo del laboratorio se divide en dos fases tácticas fundamentales:
 
-Vulnerabilidades evaluadas: Secuestro de sesión, exposición de datos sensibles por tokens mal protegidos, ausencia de directivas de seguridad en cabeceras y configuraciones débiles en el almacenamiento de cookies.
-
-Resultados y Entregables del Proyecto
-La finalidad última de estas pruebas es el fortalecimiento de la postura defensiva del sitio mediante la documentación técnica. El entorno permitirá:
-
-Identificar fallas de configuración y vulnerabilidades activas.
-
-Modelar escenarios de riesgo basados en vectores de ataque reales.
-
-Desarrollar e implementar contramedidas específicas y herramientas de mitigación.
-
-Generar informes detallados con las recomendaciones de remediación necesarias para proteger la plataforma y sus componentes de inteligencia artificial.
+### 1. Reconocimiento y Superficie de Exposición
+Fase orientada a la recolección de información pública y pasiva para determinar el perímetro del objetivo.
