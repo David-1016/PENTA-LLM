@@ -22,7 +22,7 @@ El objetivo principal es auditar el dominio `latinoamericacomparte.com` mediante
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 * Implementar metodologías de reconocimiento pasivo (Reconnaissance) sobre un objetivo digital real.
 * Ejecutar transformaciones en Maltego para extraer registros DNS, servidores de correo y direccionamiento IP.
