@@ -1,11 +1,11 @@
 # Laboratorio de Ciberseguridad: Latinoamérica Comparte
 
-## 📝 Descripción del Proyecto
+## Descripción del Proyecto
 Este repositorio contiene el entorno de pruebas, la documentación y las metodologías utilizadas para la auditoría de seguridad controlada del portal **Latinoamérica Comparte**. El objetivo principal es evaluar la resistencia de la plataforma frente a vectores de ataque modernos, analizando desde la infraestructura perimetral hasta la seguridad en modelos de Inteligencia Artificial.
 
 ---
 
-## 🎯 Objetivos Centrales
+## Objetivos Centrales
 
 > **Entorno Controlado:** Todas las pruebas descritas en este laboratorio se ejecutan bajo un marco metodológico estricto con el fin de detectar vulnerabilidades y diseñar contramedidas efectivas.
 
@@ -15,7 +15,7 @@ Este repositorio contiene el entorno de pruebas, la documentación y las metodol
 
 ---
 
-## 🔍 Alcance del Análisis
+## Alcance del Análisis
 
 El desarrollo del laboratorio se divide en dos fases tácticas fundamentales:
 
@@ -40,7 +40,7 @@ Auditoría dinámica mediante la manipulación controlada de tráfico y peticion
 
 ---
 
-## 🛠️ Metodología de Pruebas
+## Metodología de Pruebas
 
 Durante la ejecución del laboratorio se implementan técnicas estándar de la industria, las cuales incluyen:
 
@@ -50,7 +50,7 @@ Durante la ejecución del laboratorio se implementan técnicas estándar de la i
 
 ---
 
-## 📦 Resultados y Entregables
+## Resultados y Entregables
 
 Al finalizar el ciclo de pruebas, el repositorio consolidará las siguientes herramientas defensivas:
 
