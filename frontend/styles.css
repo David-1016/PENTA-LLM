@@ -1,0 +1,37 @@
+body {
+  background-color: #f4f6f9;
+}
+
+.hero {
+  background: linear-gradient(135deg, #111827, #1f2937);
+  color: white;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.hero h1 {
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+textarea {
+  resize: none;
+}
+
+.response-box {
+  background-color: #111827;
+  color: #e5e7eb;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 220px;
+  white-space: pre-wrap;
+  font-size: 14px;
+}
+
+footer {
+  font-size: 14px;
+}
