@@ -70,12 +70,6 @@ DAN / Jailbreak (Evasión Global): Construcción de escenarios lógicos complejo
 
 Obfuscation Patterns (Ocultamiento Criptográfico): Uso de codificaciones alternativas (como Base64) para evadir filtros de palabras clave sencillos.
 
-Métrica,Nombre Completo,Propósito del Indicador Técnico
-ISR,Injection Success Rate,Tasa porcentual que registra la proporción de ataques que lograron vulnerar con éxito la lógica del modelo.
-MR,Model Robustness,Índice que evalúa la estabilidad de la IA para mantener su rol inicial a pesar de recibir entradas hostiles.
-CRI,Context Resilience Index,Capacidad de persistencia de las variables de contexto a lo largo de interacciones secuenciales.
-
-
 Validación de Endpoints vía API (Postman / cURL)
 El backend expone dos comportamientos diferenciados que pueden validarse manualmente mediante solicitudes POST:
 
