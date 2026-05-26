@@ -1,4 +1,4 @@
-# AI Security & Automation Lab: Marco de Evaluación de Prompt Injection (OWASP LLM01)
+# AI Security & Automation Lab: Marco de Evaluación de Prompt-Injection-Patterns
 
 Este repositorio aloja el entorno controlado de pruebas y automatización de control de calidad (QA) diseñado bajo las metodologías de nuestro framework para evaluar la resistencia de Modelos de Lenguaje (LLMs) frente a vectores de ataque por inyección de instrucciones (Prompt Injection).
 
